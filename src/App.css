@@ -1,31 +1,209 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-y: scroll;
+  font-family: Arial;
+  font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-family: 'Gill Sans';
+}
+
+.headDecor {
+  text-decoration: underline;
+  text-decoration-color: rgb(153, 14, 153);
+  text-decoration-thickness: 10px;
+}
+
+/* Navigation section */
+
+.nav-wrapper {
+  margin-left: auto;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav ul li:hover {
+  cursor: pointer;
+}
+
+.nav ul li a:visited {
+  color: #053964;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav ul li:hover ul {
+  display: block;
+}
+
+.nav ul ul {
+  display: none;
+  position: absolute;
+  border-top: 0;
+  margin-left: -5px;
+  margin-top: 10px;
+  min-width: 200px;
+}
+
+.nav ul ul li {
+  display: block;
+  background-color: rgb(233, 223, 243);
+  color: black;
+}
+
+.nav ul ul li a:visited {
+  color: rgb(10, 10, 10);
+}
+
+.nav ul ul li a:hover {
+  color: #3b1bf3;
+  padding: 20px;
+}
+
+.hero-section {
+  background: rgba(20, 1, 39, 0.9)url("./images/heroImg.jpg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  width: 55px;
+}
+
+.how-to-buy-essence-logo {
+  width: 14%;
+}
+
+.sectionsBackground {
+  background: rgba(20, 1, 39, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* MODAL SECTION */
+.modal {
+  position: fixed;
+  background-color: white;
+  width: 80%;
+  top: 20%;
+  left: 10%;
+  border-radius: 10px;
+  padding: 20px 5px 20px 5px;
+}
+
+
+/* ROADMAP */
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #6d11c4;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #6d11c4;
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+  /* mobile-navigation */
+  .mobileNav {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(0.3rem);
+    transition: transform 600ms ease-out;
+    transform: translateX(-0%);
+    z-index: 9999;
+    padding: 10px;
+  }
+
+  .openNav {
+    transform: translateX(100%);
+  }
+
+  @supports (inset: 0 0 0 0) {
+    .mobileNav {
+      inset: 0 0 0 0;
+    }
+  }
+
+  .nav ul li {
+    display: block;
+    padding: 15px;
+  }
+
+  .nav ul ul  {
+    position: relative;
+  }
+
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 10px;
+    font-weight: 600;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +213,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
