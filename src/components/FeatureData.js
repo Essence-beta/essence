@@ -23,8 +23,7 @@ export const Data = [
     icon: "https://cdn0.iconfinder.com/data/icons/fintech-set-1/48/Liquidity-512.png",
     header: "Liquidity",
     info: "To ensure the security and stability \
-    of our Liquidity Pool, 100% LP is locked. We \
-    have also renounced contract ownership and have \
+    of our Liquidity Pool, 100% LP is locked. We have \
     ensured that no harmful functions are present in our code.",
   },
   {
