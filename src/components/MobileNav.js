@@ -29,16 +29,14 @@ function MobileNav({CloseNav, mobileNav}) {
                 <li className="md:mx-3">
                   TRADE DEX
                   <ul>
-                    <li>
-                      Coming Soon...
-                    </li>
+                    <li>Coming Soon...</li>
                   </ul>
                 </li>
                 <li className="md:mx-3">
                   SOCIALS
                   <ul>
                     <li>
-                      <a href="https://twitter.com/essence_token?t=CRrf6SLbBZe6nPyp-xVxRA&s=09">
+                      <a href="https://mobile.twitter.com/essencee_token">
                         TWITTER
                       </a>
                     </li>
@@ -47,9 +45,7 @@ function MobileNav({CloseNav, mobileNav}) {
                     </li>
                   </ul>
                 </li>
-                <li className="md:mx-3">
-                  WHITEPAPER
-                </li>
+                <li className="md:mx-3">WHITEPAPER</li>
                 <li>
                   <button className="p-2 bg-purple-500 rounded-lg">
                     BUY NOW

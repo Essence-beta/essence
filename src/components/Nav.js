@@ -14,16 +14,14 @@ function Nav() {
               <li className="mx-3">
                 TRADE DEX
                 <ul>
-                  <li>
-                    Coming Soon..
-                  </li>
+                  <li>Coming Soon..</li>
                 </ul>
               </li>
               <li className="mx-3">
                 SOCIALS
                 <ul>
                   <li>
-                    <a href="https://twitter.com/essence_token?t=CRrf6SLbBZe6nPyp-xVxRA&s=09">
+                    <a href="https://mobile.twitter.com/essencee_token">
                       TWITTER
                     </a>
                   </li>
@@ -33,7 +31,9 @@ function Nav() {
                 </ul>
               </li>
               <li>
-                <button className="p-2 bg-purple-600 rounded-lg">BUY NOW</button>
+                <button className="p-2 bg-purple-600 rounded-lg">
+                  BUY NOW
+                </button>
               </li>
             </ul>
           </div>
