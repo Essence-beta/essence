@@ -138,11 +138,11 @@ function App() {
                     className="w-1/4 mx-auto my-3"
                   />
                   <h2 className="text-white font-bold text-xl md:text-2xl">
-                    Create Metamask Wallet
+                    Create A Wallet
                   </h2>
                 </div>
                 <p className="text-white text-xs md:text-xl">
-                  Create a MetaMask Wallet using either a desktop computer or an
+                  Create a MetaMask or trustwallet or any decentralised Wallet of your choice using either a desktop computer or an
                   iOS/Android. This will allow you to buy, sell, send, and
                   receive $ESCN
                 </p>
