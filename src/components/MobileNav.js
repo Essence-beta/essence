@@ -29,7 +29,11 @@ function MobileNav({CloseNav, mobileNav}) {
                 <li className="md:mx-3">
                   TRADE DEX
                   <ul>
-                    <li>Coming Soon...</li>
+                    <li>
+                      <a href="https://pancakeswap.finance/swap?inputCurrency=0x61aF88810966c8C4E2acBB6Ea5628E7bEB1A0563&outputCurrency=BNB">
+                        Pancakeswap
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li className="md:mx-3">
