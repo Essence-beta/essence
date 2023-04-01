@@ -51,8 +51,8 @@ function MobileNav({CloseNav, mobileNav}) {
                 </li>
                 <li className="md:mx-3">WHITEPAPER</li>
                 <li>
-                  <button className="p-2 bg-purple-500 rounded-lg">
-                    BUY NOW
+                  <button className="p-2 bg-purple-500 rounded-lg text-white">
+                    <a href="https://pancakeswap.finance/swap?inputCurrency=0x61aF88810966c8C4E2acBB6Ea5628E7bEB1A0563&outputCurrency=BNB">BUY NOW</a>
                   </button>
                 </li>
               </ul>

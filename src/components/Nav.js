@@ -15,7 +15,9 @@ function Nav() {
                 TRADE DEX
                 <ul>
                   <li>
-                  <a href="https://pancakeswap.finance/swap?inputCurrency=0x61aF88810966c8C4E2acBB6Ea5628E7bEB1A0563&outputCurrency=BNB">Pancakeswap</a>
+                    <a href="https://pancakeswap.finance/swap?inputCurrency=0x61aF88810966c8C4E2acBB6Ea5628E7bEB1A0563&outputCurrency=BNB">
+                      Pancakeswap
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -33,8 +35,8 @@ function Nav() {
                 </ul>
               </li>
               <li>
-                <button className="p-2 bg-purple-600 rounded-lg">
-                  BUY NOW
+                <button className="p-2 bg-purple-600 rounded-lg text-white">
+                  <a href="https://pancakeswap.finance/swap?inputCurrency=0x61aF88810966c8C4E2acBB6Ea5628E7bEB1A0563&outputCurrency=BNB">BUY NOW</a>
                 </button>
               </li>
             </ul>
