@@ -100,8 +100,11 @@ function App() {
               </h1>
             </div>
             <h2 className="text-xl md:mr-52 mt-8">
-              Essence token is a cryptocurrency that aims to provide a means for
-              human settlement and exchange within cryptocurrency sector.
+              Essence DAO is a decentralized autonomous organization (DAO) that
+              aims to promote the development and adoption of Essence Token. The
+              DAO will provide a platform for Essence Token holders to govern
+              and manage the token's ecosystem through community-driven
+              decision-making.
             </h2>
           </div>
           <div className="md:w-1/2 flex justify-center items-center p-5 md:p-0">
@@ -142,7 +145,8 @@ function App() {
                   </h2>
                 </div>
                 <p className="text-white text-xs md:text-xl">
-                  Create a MetaMask or trustwallet or any decentralised Wallet of your choice using either a desktop computer or an
+                  Create a MetaMask or trustwallet or any decentralised Wallet
+                  of your choice using either a desktop computer or an
                   iOS/Android. This will allow you to buy, sell, send, and
                   receive $ESCN
                 </p>
