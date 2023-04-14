@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 import './App.css';
+import Form from './components/Form';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -359,6 +360,9 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <Form/>
         </div>
         <div className="bg-black p-10 md:p-30">
           <Footer />
