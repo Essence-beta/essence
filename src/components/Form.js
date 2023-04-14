@@ -59,7 +59,8 @@ function Form() {
             </div>
             <div className="flex flex-col mb-10">
               <label className="text-xl">
-                Like, follow and Retweet Pinned Post in Twitter Page
+                Like, follow and Retweet Pinned Post in Twitter Page <br />
+                Comment and tag 3 friends
               </label>
               <button className="w-32 rounded text-black bg-white p-3">
                 <a
