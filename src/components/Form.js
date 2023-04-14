@@ -92,8 +92,8 @@ function Form() {
             SUBMIT
           </button>
         </form>
-        <div className="flex justify-center w-4/5 md:w-1/2">
-          <img src={Airdrop} alt="airdrop" />
+        <div className="flex justify-center w-4/5 md:w-1/2 my-10">
+          <img src={Airdrop} alt="airdrop" className='ml-12 md:ml-0'/>
         </div>
       </div>
       <div className={submitModal ? "airdropModal shadow-lg relative" : "hidden"}>
