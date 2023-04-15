@@ -11,6 +11,9 @@ function Nav() {
         <div className="nav">
           <div className="nav-wrapper">
             <ul>
+              {/* <li className="mx-3 text-yellow-400">
+                <a href="#form">AIRDROP</a>
+              </li> */}
               <li className="mx-3">
                 TRADE DEX
                 <ul>
@@ -36,7 +39,9 @@ function Nav() {
               </li>
               <li>
                 <button className="p-2 bg-purple-600 rounded-lg text-white">
-                  <a href="https://pancakeswap.finance/swap?inputCurrency=0x61aF88810966c8C4E2acBB6Ea5628E7bEB1A0563&outputCurrency=BNB">BUY NOW</a>
+                  <a href="https://pancakeswap.finance/swap?inputCurrency=0x61aF88810966c8C4E2acBB6Ea5628E7bEB1A0563&outputCurrency=BNB">
+                    BUY NOW
+                  </a>
                 </button>
               </li>
             </ul>

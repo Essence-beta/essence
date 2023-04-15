@@ -104,6 +104,10 @@ h1 {
   background-size: cover;
 }
 
+.airdropBackground {
+  background-color: chartreuse;
+}
+
 /* MODAL SECTION */
 .modal {
   position: fixed;
