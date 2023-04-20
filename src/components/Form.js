@@ -10,7 +10,7 @@ function Form() {
 
     const submitDetails = (e) => {
         e.preventDefault();
-        if (details.name ) {
+        if (details.name || details.telegram || details.twitter || details.address || details.referral) {
           setSubmitModal(true);
           setTimeout(() => {
             setSubmitted(true);
